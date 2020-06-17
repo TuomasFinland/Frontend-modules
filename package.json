@@ -1,0 +1,15 @@
+{
+  "name": "modules",
+  "version": "1.0.0",
+  "description": "Tutorial modules",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Tuomas Liimatta",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
